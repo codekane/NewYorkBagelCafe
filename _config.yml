@@ -13,15 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Flightdeck: A Scaffold for Jekyll'
-email: client-email@client_domain.com
+title: 'New York Bagel Cafe'
+email: nybcafe@gmail.com
 description: >
-  Flightdeck is a scaffold and starter project for Jekyll that uses an opinionated modern front-end workflow.
+  The New York Bagel Cafe is one of those cozy<br/>
+  bistros you are always delighted to find.<br/>
+  Leisurely Viennese style dining offers quiet elegance,<br/>
+  good value, and excellent food.<br/>
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ginfuru
-github_username: ginfuru
 
+address:
+  - {street: "8430 Gateway Blvd", city: "Edmonton", province: "AB", postal_code: "T6E-4B4"}
+
+operations:
+  - {day: 'Monday-Friday', hours: '8:00 AM - 4:00 PM'}
+  - {day: "Saturday", hours: '8:00 AM - 4:00 PM' }
+  - {day: 'Sunday', hours: '8:00 AM - 4:00 PM' }
 # SEO
 #image: /assets/images/open_graph_image.png
 google_analytics: # UA-XXXXXXXX-XX -> https://minimalanalytics.com/
