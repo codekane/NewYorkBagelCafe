@@ -5,7 +5,7 @@
 
 
     <div class="container columns">
-      <div class="column col-6">
+      <div class="column col-5">
         <ul class="contact-list">
           <li class="p-name">
             <h4>{{ site.title | escape }}</h4>
@@ -21,19 +21,26 @@
         </ul>
       </div>
 
-      <div class="column col-6">
-          <ul style="list-style-type: none;">
-            {% for operation in site.operations %}
-              <li>
-                <strong>{{operation['day']}}:</strong>  {{operation['hours']}}
-              </li>
-            {% endfor %}
-        </ul>
+      <div class="column col-7">
+        <div class="columns">
+          <div class="column col-6">
+            <ul style="list-style-type: none;">
+              {% for operation in site.operations %}
+                <li><strong>{{operation['day']}}:</strong></li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="column col-6">
+            <ul style="list-style-type: none;">
+              {% for operation in site.operations %}
+                <li>{{operation['hours']}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-
 </footer>
 
 <script src="{{ "/assets/js/bundle.js" | relative_url }}" type="text/javascript"></script>

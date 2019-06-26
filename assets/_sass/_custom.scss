@@ -5,3 +5,23 @@
   min-height: 300vh;
   background-repeat: no-repeat;
 }
+
+.bordertown {
+  border: 50px solid transparent;
+  padding: 15px;
+  border-image: url('/assets/images/Surround-Optimized.svg') 15% repeat;
+}
+
+.title {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+}
