@@ -314,3 +314,138 @@ breakfast:
           name-end: add
         - name: add or substitute soy milk
           price: $2.00
+alcohol:
+  wine:
+    white:
+      - name: Jackson-Triggs Sauvignon Blanc (Canada)
+        origin: Canada
+        Glass: $9.50
+        500ml: $35
+        Bottle: $45
+      - name: Lindemans Bin 65 Chardonnay
+        origin: Australia
+        500ml: $35
+        bottle: $45
+      - name: Dr. Zenzen Kabinett Riesling
+        origin: Germany
+        500ml: $35
+        bottle: $45
+      - name: Villa Teresa Pinot Grigio
+        origin: Italy
+        500ml: $35
+        bottle: $45
+      - name: Viña Esmeralda Moscatel-Gewürztraminer
+        origin: Spain
+        500ml: $35
+        bottle: $45
+      - name: Les Ormeaux-Sauvion Muscadet
+        origin: France
+        bottle: $45
+    red:
+      - name: Doña Paula Los Cardos Malbec
+        origin: Argentina
+        glass: $9.50
+        500ml: $35
+        bottle: $45
+      - name: Sweet Chocovine Dutch Chocolate
+        origin: Holland
+        glass: $9.50
+        500ml: $35
+        bottle: $45
+      - name: Babich Marlborough Pinot Noir
+        origin: New Zealand
+        500ml: $35
+        bottle: $5
+      - name: Ibericos Crianza Tempranillo
+        origin: Spain
+        500ml: $35
+        bottle: $45
+      - name: Fat Bastard Shiraz
+        origin: France
+        bottle: $45
+    sparking-white:
+      - name: Villa Teresa Prosecco
+        origin: Italy
+        glass: $9.50
+        bottle: $45
+      - name: Villa Teresa Rosé Veneto
+        origin: Italy
+        glass: $9.50
+        bottle: $45
+      - name: Sparkling Mimosa Cocktail
+        glass: $15
+        description: 200mL Bottle of Freixenet Cordon Negro and Orange Juice
+    dessert:
+      - name: Port
+        2oz: $10.00
+      - name: Madeira
+        2oz: $10.00
+      - name: Malaga
+        2oz: $10.00
+      - name: Marsala
+        2oz: $10.00
+  liquor:
+    beer:
+      - name: Sleeman Honey Brown Lager
+        origin: Canada
+        price: $6.75
+      - name: Big Rock Grasshopper
+        origin: Canada
+        price: $6.75
+      - name: Hophead India Pale Ale
+        origin: Canada
+        price: $6.75
+      - name: Stella Artois
+        origin: Belgium
+        price: $7.50
+      - name: Pilsner Urquell
+        origin: Czech
+        price: $7.50
+      - name: Tuborg
+        origin: Denmark
+        price: $7.50
+      - name: Paulaner
+        origin: Germany
+        price: $7.50
+      - name: Heinekin
+        origin: Netherlands
+        price: $7.50
+      - name: Stiegl Radler Grapefruit
+        origin: Austria
+        price: $9.50
+        description: 500mL can
+      - name: Zywiec
+        origin: Poland
+        price: $9.50
+      - name: Früli Strawberry
+        origin: Belgium
+        price: $9.50
+      - name: Gluten Free Estrella Daura
+        origin: Spain
+        price: $8.50
+      - name: Guinness
+        origin: Ireland
+        price: $8.50
+      - name: Clausthaler (non-alcoholic)
+        origin: Germany
+        price: $5.50
+    liquor:
+      - title: Frozen Polish Vodka
+        name: Wyborowa ~ Zubrówka (Bison Grass)
+        1.5oz: $7.50
+      - title: Brandy and Cognac
+        selection:
+          - name: Asbach Uralt
+            origin: Germany
+            1.5oz: $8.00
+          - name: Courvoisier VSOP
+            origin: France
+            1.5oz: $12.00
+          - name: Armagnac
+            origin: France
+            1.5oz: $12.00
+          - name: Grappa
+            origin: Italy
+            1.5oz: $10.00
+      -  title: Liquers
+         1.5oz: $7.50
