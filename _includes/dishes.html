@@ -1,0 +1,37 @@
+{% for dish in section.dishes %}
+  <div class="dish">
+    <div class="row">
+      <div class="row-name">
+        <p><strong>{{dish.name}}</strong></p>
+      </div>
+      {% if dish.ammendum %}
+        <div class="row-ammendum">
+          <p><small><i>{{dish.ammendum}}</i></small></p>
+        </div>
+      {% endif %}
+      {% if dish.price %}
+        <div class="row-price">
+          <p><strong>{{dish.price}}</strong></p>
+        </div>
+      {% endif %}
+    </div>
+    {% if dish.variation %}
+      {% for variation in dish.variation %}
+        <div class="row">
+          {% if variation.name %}
+            <p>{{variation.name}}</p>
+          {% endif %}
+          {% if variation.name-end %}
+            <p class="row-end">{{variation.name-end}}</p>
+          {% endif %}
+          {% if variation.price %}
+            <p class="row-end"><strong>{{variation.price}}</strong></p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+    <div class="row">
+      <p>{{dish.description}}</p>
+    </div>
+  </div>
+{% endfor %}

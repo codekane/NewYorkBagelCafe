@@ -1,5 +1,6 @@
 breakfast:
   - title: NYBC'S BREAKFAST
+    column: 1
     description: Our eggs and produce are organic and locally grown
     dishes:
       - name: Sweet & Fresh
@@ -16,6 +17,7 @@ breakfast:
           Challah bread or panettone topped with maple syrup, homemade berry compote
           and a bowl of fresh fruit salad (melons, pineapple, mint)
   - title: EGG ENTREÉS
+    column: 1
     description: |
       All served with a toasted bagel of your choice:
       White ~ Whole Wheat ~ Multigrain ~ Cheddar ~ Pumpernickel
@@ -46,3 +48,89 @@ breakfast:
         price: $24.50
         description: >
           Ask your server about the Topping of the Day
+  - title: NYBC's EGGS BENEDICT
+    column: 2
+    description: |
+      Two poached jumbo eggs on a toasted bagel of your choice:
+      White * Whole Wheat * Multigrain * Cheddar * Pumpernickel
+      topped withour homemade Hollandaise sauce
+      and served with hash browns, fresh berries * slices of melon
+    dishes:
+      - name: Eggs Benedict
+        ammendum: "With your choice of:"
+        price: $24
+        description: |
+          Black Forest Ham - Hickory Smoked Turkey - Smoked Beef - Steamed Spinach
+      - name: Truffle salami Eggs Benedict
+        price: $26
+      - name: Fennel salami Eggs Benedict
+        price: $26
+      - name: Albanian Smoked Beef Sausage Eggs Benedict
+        price: $26
+      - name: Lox
+        price: $26
+      - name: Bobby's
+        price: $26
+        ammendum: "- Organic beef burger patty and sliced dill pickle"
+      - name: Joe's
+        price: $26
+        ammendum: "Bacon"
+      - name: Grilled Tomato
+        price: $26
+        ammendum: "Bacon, Cheddar Cheese"
+      - name: "Bocconcini"
+        ammendum: "and Bacon"
+        price: $26
+      - name: Amoroso
+        price: $26
+        ammendum: "Steamed oysters, Steamed Spinach, Bacon"
+      - name: Smoked Oyster
+        price: $26
+        ammendum: "and Bacon"
+      - name: Rossini
+        price: $36
+        ammendum: "Foie Gras & Truffle"
+      - name: Kiszka
+        price: $26
+        ammendum: "Polish Blood Sausage"
+      - name: Polish Smoked Sausage
+        price: $26
+      - name: Spicy Chorizo
+        price: $26
+        ammendum: Sausage & Polish smoked cheese
+      - name: Szeged
+        price: $26
+        ammendum: Hungarian Salami & Polish Smoked Cheese
+      - name: Iberico
+        price: $26
+        ammendum: "- Spanish wild boar salami & cream cheese"
+      - name: Prima
+        price: $26
+        ammendum: Prosciutto & steamed asparagus
+      - name: Secondo
+        price: $26
+        ammendum: Prosciutto & grilled apple
+      - name: Westphalian
+        price: $26
+        ammendum: "ham & grilled apple"
+      - name: Hawaiian
+        price: $26
+        ammendum: Black Forest Ham & Pineapple
+      - name: Roasted Pork
+        ammendum: "with horseradish"
+        price: $26
+      - name: "Smoked Meat"
+        ammendum: Bosnian style & pickled plum
+        price: $26
+      - name: Bresaola
+        ammendum: (Italian air-cured beef) & pickled plum
+        price: $26
+      - name: Smoked Duck
+        ammendum: breast & pickled plum
+        price: $26
+      - name: Smoked Goose
+        ammendum: breast & grilled apple
+        price: $36
+      - name: Pulled Pork
+        ammendum: or duck or goose
+        price: $36
