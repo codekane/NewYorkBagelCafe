@@ -1,0 +1,22 @@
+{% assign binary = {{include.binary}} %}
+{% for section in menu %}
+  {% assign index = forloop.index %}
+  {% assign mod = forloop.index | modulo: 2 %}
+  {% if mod == binary %}
+    <div class="accordion">
+      <input type="checkbox" id="accordion-{{index}}" name="accordion-checkbox" hidden>
+      <label class="accordion-header" for="accordion-{{index}}">
+        <h2 class="text-center">{{section.title}}</h2>
+        {% if section.description %}
+          <p class="text-center">{{section.description}}</p>
+        {% endif %}
+      </label>
+      <div class="accordion-body">
+        {% include dishes.html %}
+      </div>
+    </div>
+    <hr/>
+  {% endif %}
+{% endfor %}
+
+

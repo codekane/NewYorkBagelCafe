@@ -4,31 +4,13 @@ layout: default
 
 {% assign menu = site.data.menu.breakfast %}
 {% assign column2 = menu | where: "column", 2 %}
+{% assign column1 = menu | where: "column", 1 %}
 <div class="columns">
   <div class="column col-6">
     <hr/>
-    {% for section in menu %}
-      {% if section.column == 1 %}
-        <h2 class="text-center">{{section.title}}</h2>
-        {% if section.description %}
-          <p class="text-center">{{section.description}}</p>
-        {% endif %}
-        {% include dishes.html %}
-      {% endif %}
-      <hr/>
-    {% endfor %}
+    {% include menu_section.html binary=0 %}
   </div>
   <div class="column col-6">
     <hr/>
-    {% for section in column2 %}
-      {% if section.column == 2 %}
-        <h2 class="text-center">{{section.title}}</h2>
-        {% if section.description %}
-          <p class="text-center">{{section.description}}</p>
-        {% endif %}
-        {% include dishes.html %}
-      {% endif %}
-      <hr/>
-    {% endfor %}
+    {% include menu_section.html binary=1 %}
   </div>
-</div>
