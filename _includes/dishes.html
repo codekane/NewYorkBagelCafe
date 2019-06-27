@@ -30,8 +30,10 @@
         </div>
       {% endfor %}
     {% endif %}
-    <div class="row">
-      <p>{{dish.description}}</p>
-    </div>
+    {% if dish.description %}
+      <div class="row">
+        <p>{{dish.description}}</p>
+      </div>
+    {% endif %}
   </div>
 {% endfor %}
