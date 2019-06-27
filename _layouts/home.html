@@ -4,17 +4,16 @@ layout: default
 
 <div class="container columns">
   <div class="column col-3">
-    <div class="columns">
-      <div class="column col-12">
-      </div>
-      <div class="column col-12">
-      </div>
-    </div>
   </div>
 
   <div class="column col-6">
-    <img src="/assets/images/Title-Text.svg" class="title"/>
+    <img src="/assets/images/Logo.svg" class="logo"/>
     <h2 style="text-align: center;">Established 1982</h2>
+    <p style="text-align: center;">The New Your Bagel Café is one of those
+      cozy<br/> bistros you are always delighted to find.<br/>Leisurely Viennese
+      style dining offers quiet elegance,<br/>good value, and excellent
+      food.<br/></p>
+
   </div>
 
   <div class="column col-3">
@@ -22,42 +21,38 @@ layout: default
 </div>
 
 <div class="container">
-  <p style="text-align: center;">The New Your Bagel Café is one of those
-    cozy<br/> bistros you are always delighted to find.<br/>Leisurely Viennese
-    style dining offers quiet elegance,<br/>good value, and excellent
-    food.<br/></p>
 </div>
 
 
-    {% comment %}
-    <div class="home test">
-      {%- if page.title -%}
-      <h1 class="page-heading">{{ page.title }}</h1>
+{% comment %}
+<div class="home test">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
       {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 
-      {{ content }}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
 
-      {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      {%- endif -%}
-
-    </div>
-    {% endcomment %}
+</div>
+{% endcomment %}
