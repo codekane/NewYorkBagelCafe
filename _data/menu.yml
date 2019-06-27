@@ -134,3 +134,99 @@ breakfast:
       - name: Pulled Pork
         ammendum: or duck or goose
         price: $36
+  - title: Non-Meat Bennies
+    column: 2
+    dishes:
+      - name: Tex Mex
+        ammendum: "- Our homemade veggi chili & cheddar cheese"
+        price: $26
+      - name: Mykonos
+        ammendum: "- Spinach & Feta Cheese"
+        price: $26
+      - name: Asparagus
+        ammendum: "& camembert cheese"
+        price: $26
+      - name: Truffle
+        ammendum: "Sheep's cheese"
+        price: $26
+      - name: "Stilton"
+        ammendum: blue cheese & grilled apple
+        price: $26
+      - name: Limburger
+        ammendum: cheese & grilled apple
+        price: $26
+      - name: Basilico
+        ammendum: "- Grilled tomato & fresh basil"
+        price: $26
+      - name: Grilled tomato
+        ammendum: avocado, pickled jalapepeño peppers
+        price: $26
+      - name: Fresh chanterelle
+        ammendum: mushrooms sautéed in butter
+        price: $36
+      - name: Seasoned seaweed
+        ammendum: pickled ginger & lumpfish caviar
+        price: $26
+  - title: Sides
+    column: 1
+    dishes:
+      - name: One Egg
+        ammendum: "- any style"
+        price: $3
+      - name: Toasted Buttered Bagel
+        price: $5
+        description: |
+          White ~ Whole Wheat ~ Multigrain ~ Cheddar ~ Pumpernickel
+      - name: Rye-Bread & Butter
+        price: $5
+      - name: Challah Bread & Butter
+        price: $5.50
+      - name: Cranberry-Nut Bread & Butter
+        price: $5.50
+      - name: Plain Cream-Cheese Sandwich
+        price: $7
+      - name: Flavored Cream-Cheese Sandwich
+        price: $8
+  - title: Bagel Platters
+    column: 1
+    description: |
+      Served with potato salad, sour dill pickle, and organic vegetables
+    dishes:
+      - name: 1ox and cream cheese
+        price: $26
+      - name: Smoked tuna and cream cheese
+        price: $26
+      - name: caviar, hard boiled egg, and cream cheese
+        price: $26
+      - name: hickory-smoked turkey with cream cheese and cranberry sauce
+        price: $20.50
+      - name: salami with cream cheese and kiwi fruit
+        price: $20.50
+      - name: $Black Forest ham and cream cheese
+        price: $20.50
+      - name: Montreal smoked beef on rye bread
+        price: $20.50
+      - name: chicken liver paté with green peppercorns and cognac
+        price: $20.50
+      - name: super lox cream cheese
+        price: $18.50
+      - name: honey, almond, and raisin cream cheese
+        price: $18.50
+      - name: avocado and hot pepper cream cheese
+        price: $18.50
+      - name: sundried tomato and basil cream cheese
+        price: $18.50
+      - name: '"La bomba" cream cheese (spicy marinated vegetables)'
+        price: $18.50
+      - name: black olive and roasted bell pepper cream cheese
+        price: $18.50
+      - name: smoked jalapepeño cream cheese
+        price: $18.50
+      - name: plain cream cheese
+        price: $18.00
+      - name: "James Bond's Favorite: Canadian white sturgeon caviar (seasonal)"
+        price: $145.00
+      - name: artichoke and feta cream cheese
+        price: $18.50
+      - name: sourdill cream cheese
+        price: $18.50

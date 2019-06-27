@@ -6,21 +6,29 @@ layout: default
 {% assign column2 = menu | where: "column", 2 %}
 <div class="columns">
   <div class="column col-6">
+    <hr/>
     {% for section in menu %}
       {% if section.column == 1 %}
         <h2 class="text-center">{{section.title}}</h2>
-        <p class="text-center">{{section.description}}</p>
+        {% if section.description %}
+          <p class="text-center">{{section.description}}</p>
+        {% endif %}
         {% include dishes.html %}
       {% endif %}
+      <hr/>
     {% endfor %}
   </div>
   <div class="column col-6">
+    <hr/>
     {% for section in column2 %}
       {% if section.column == 2 %}
         <h2 class="text-center">{{section.title}}</h2>
-        <p class="text-center">{{section.description}}</p>
+        {% if section.description %}
+          <p class="text-center">{{section.description}}</p>
+        {% endif %}
         {% include dishes.html %}
       {% endif %}
+      <hr/>
     {% endfor %}
   </div>
 </div>
