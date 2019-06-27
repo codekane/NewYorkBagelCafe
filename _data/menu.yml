@@ -1,17 +1,16 @@
 breakfast:
-  nybc-breakfast:
-    title: NYBC'S BREAKFAST
+  - title: NYBC'S BREAKFAST
     description: Our eggs and produce are organic and locally grown
     dishes:
       - name: Sweet & Fresh
-        ammendum: Your choice of:
+        ammendum: "Your choice of:"
         price: $20
         description: >
           Sticky bun or challah (braided egg-bread w/ poppy seeds) or cranberry-nut
           bread with honey-almond-raisin creame cheese and a bowl of fresh fruit
           salad (melons, pineapple, mint)
       - name: French Toast
-        ammendum: Your choice of:
+        ammendum: "Your choice of:"
         price: $22
         description: >
           Challah bread or panettone topped with maple syrup, homemade berry compote

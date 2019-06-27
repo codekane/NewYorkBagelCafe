@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="columns">
+    <div class="column col-6">
+      <section class="menu-section">
+        {% for section in site.data.menu.breakfast %}
+          <h2 class="text-center">{{section.title}}</h2>
+          <p class="text-center">{{section.description}}</p>
+
+          {% for dish in section.dishes %}
+            <div class="dish">
+              <div class="row">
+                <div class="row-name">
+                  <p><strong>{{dish.name}}</strong></p>
+                </div>
+                {% if dish.ammendum %}
+                  <div class="row-ammendum">
+                    <p><small><i>{{dish.ammendum}}</i></small></p>
+                  </div>
+                {% endif %}
+                <div class="row-price">
+                  <p><strong>{{dish.price}}</strong></p>
+                </div>
+              </div>
+              <div class="row">
+                <p>{{dish.description}}</p>
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </section>
+
+    </div>
+    <div class="column col-6">
+
+    </div>
+  </div>
+</div>
