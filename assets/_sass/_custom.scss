@@ -45,3 +45,22 @@
     margin: 0 0 0 0;
   }
 }
+
+.nav-link {
+    margin-left: 30px;
+  a {
+    margin-right: auto;
+  }
+}
+
+header.navbar {
+  border-bottom: 3px solid;
+  padding-bottom: 15px;
+}
+
+* {
+  caret-color: transparent;
+}
+.dish {
+  margin: 0 30px 0 30px;
+}

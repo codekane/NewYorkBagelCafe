@@ -5,12 +5,12 @@ layout: default
 {% assign menu = site.data.menu.breakfast %}
 {% assign column2 = menu | where: "column", 2 %}
 {% assign column1 = menu | where: "column", 1 %}
-<div class="columns">
-  <div class="column col-6">
-    <hr/>
-    {% include menu_section.html binary=0 %}
-  </div>
+<div class="columns col-gapless">
   <div class="column col-6">
     <hr/>
     {% include menu_section.html binary=1 %}
+  </div>
+  <div class="column col-6">
+    <hr/>
+    {% include menu_section.html binary=0 %}
   </div>

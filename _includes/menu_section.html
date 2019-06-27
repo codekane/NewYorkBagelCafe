@@ -7,6 +7,9 @@
       <input type="checkbox" id="accordion-{{index}}" name="accordion-checkbox" hidden>
       <label class="accordion-header" for="accordion-{{index}}">
         <h2 class="text-center">{{section.title}}</h2>
+        {% if section.subtitle %}
+          <h4 class="text-center text-large">{{section.subtitle}}</h4>
+        {% endif %}
         {% if section.description %}
           <p class="text-center">{{section.description}}</p>
         {% endif %}

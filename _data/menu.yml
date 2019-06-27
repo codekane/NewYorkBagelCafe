@@ -1,6 +1,5 @@
 breakfast:
   - title: NYBC'S BREAKFAST
-    column: 1
     description: Our eggs and produce are organic and locally grown
     dishes:
       - name: Sweet & Fresh
@@ -17,7 +16,6 @@ breakfast:
           Challah bread or panettone topped with maple syrup, homemade berry compote
           and a bowl of fresh fruit salad (melons, pineapple, mint)
   - title: EGG ENTREÉS
-    column: 1
     description: |
       All served with a toasted bagel of your choice:
       White ~ Whole Wheat ~ Multigrain ~ Cheddar ~ Pumpernickel
@@ -49,7 +47,6 @@ breakfast:
         description: >
           Ask your server about the Topping of the Day
   - title: NYBC's EGGS BENEDICT
-    column: 2
     description: |
       Two poached jumbo eggs on a toasted bagel of your choice:
       White * Whole Wheat * Multigrain * Cheddar * Pumpernickel
@@ -135,7 +132,6 @@ breakfast:
         ammendum: or duck or goose
         price: $36
   - title: Non-Meat Bennies
-    column: 2
     dishes:
       - name: Tex Mex
         ammendum: "- Our homemade veggi chili & cheddar cheese"
@@ -168,7 +164,6 @@ breakfast:
         ammendum: pickled ginger & lumpfish caviar
         price: $26
   - title: Sides
-    column: 1
     dishes:
       - name: One Egg
         ammendum: "- any style"
@@ -188,7 +183,6 @@ breakfast:
       - name: Flavored Cream-Cheese Sandwich
         price: $8
   - title: Bagel Platters
-    column: 1
     description: |
       Served with potato salad, sour dill pickle, and organic vegetables
     dishes:
@@ -230,3 +224,93 @@ breakfast:
         price: $18.50
       - name: sourdill cream cheese
         price: $18.50
+  - title: Other Selections
+    dishes:
+      - name: tomato bocconcini salad
+        price: $17.00
+      - name: greek salad
+        price: $17.00
+      - name: 8oz spicy organic beef cajun burger w/ potato salad
+        price: $20.00
+      - name: veggie burger
+        price: $16.00
+      - name: side of potato salad
+        price: $7
+      - name: home fried potatoes
+        price: $8.50
+      - name: vegetarian chili
+        price: $16.00
+  - title: Cold Beverages
+    dishes:
+      - name: Non-Alcoholic Milk Cocktails
+        description: (lemon, strawberry, banana, raspberry, or pineapple)
+        price: $8.00
+      - name: Fresh Iced Tea
+        price: $7.00
+      - name: Orangina
+        price: $4.50
+      - name: Mineral Water
+        price: $3.50
+        variation:
+          - name: 750mL
+            price: $8.00
+      - name: Milk
+        price: $4.50
+      - name: Chocolate Milk
+        price: $4.50
+      - name: Fresh Lemonade
+        price: $7.00
+      - name: Juices
+        price: $4.50
+      - name: Coca Cola
+        price: $3.50
+  - title: Hot Beverages
+    dishes:
+      - name: Tea
+        price: $4.00
+      - name: Hot Chocolate
+        description: with Whipped Cream
+        price: $6.00
+      - name: Steamed Milk
+        price: $5.50
+      - name: Soy Milk
+        price: $5.50
+  - title: Coffee Creations
+    dishes:
+    - name: Micaro
+      description: Short espresso with cream. Cappuccino sized.
+      price: $5.50
+    - name: Cappuccino
+      description: Espresso, steamed milk with foam and cocoa
+      price: $4.50
+    - name: Mocha
+      description: Chocolate syrup, steamed milk with foam, espresso
+      price: $6.50
+    - name: Cafe au Lait
+      description: Espresso, steamed milk with foam, served in a beer mug
+      price: $6.00
+    - name: Melange
+      description: Espresso with steamed milk and whipped cream
+      price: $6.50
+    - name: Cafe Borgia
+      description: 'House Specialty: hot chocolate, espresso, whipped cream, and orange peel'
+      price: $6.50
+    - name: Hawaiian Coffee
+      description: Coconut syrup, steamed milk, espresso and whipped coconut cream
+      price: $6.50
+    - name: Espresso
+      description: "Quality 'arabica' coffee blended from specially selected coffee beans. Four times stronger than regular Canadian coffee."
+      price: $3.50
+    - name: House Coffee
+      description: Espresso based, strong European style cofee, with steamed milk on the side
+      price: $4.50
+    - name: Iced Coffee
+      description: Espresso, cream, and sugar, iced to perfection
+      price: $8.00
+    - name:
+      variation:
+        - name: flavours (ask for selection)
+          price: $2.00
+          name-end: add
+        - name: add or substitute soy milk
+          price: $2.00

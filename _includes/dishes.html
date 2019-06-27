@@ -9,6 +9,9 @@
           <p><small><i>{{dish.ammendum}}</i></small></p>
         </div>
       {% endif %}
+      {% if dish.name-end %}
+        <p class="row-end">{{dish.name-end}}</p>
+      {% endif %}
       {% if dish.price %}
         <div class="row-price">
           <p><strong>{{dish.price}}</strong></p>
