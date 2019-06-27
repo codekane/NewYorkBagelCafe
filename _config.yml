@@ -30,6 +30,7 @@ operations:
   - {day: 'Monday-Friday', hours: '8:00 AM - 4:00 PM'}
   - {day: "Saturday", hours: '8:00 AM - 4:00 PM' }
   - {day: 'Sunday', hours: '8:00 AM - 4:00 PM' }
+
 # SEO
 #image: /assets/images/open_graph_image.png
 google_analytics: # UA-XXXXXXXX-XX -> https://minimalanalytics.com/
