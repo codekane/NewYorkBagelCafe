@@ -15,3 +15,34 @@ breakfast:
         description: >
           Challah bread or panettone topped with maple syrup, homemade berry compote
           and a bowl of fresh fruit salad (melons, pineapple, mint)
+  - title: EGG ENTREÉS
+    description: |
+      All served with a toasted bagel of your choice:
+      White ~ Whole Wheat ~ Multigrain ~ Cheddar ~ Pumpernickel
+      and our homemade hash browns, fresh berries, & slices of melon
+    dishes:
+      - name: Classic Breakfast
+        variation:
+          - name: Eggs any style (Two Jumbo Eggs)
+            price: $20.50
+          - name: or Scrambled Eggs (Four Jumbo Eggs)
+            price: $24.50
+        description: >
+          Bacon ~ Black Forest Ham ~ Hickory Smoked Turkey ~ Smoked Meat ~
+          Polish Smoked Sausage ~ Smoked Tuna ~ Lox ~ Spinach ~ Steamed Asparagus
+      - name: Omelette
+        price: $24.50
+        variation:
+          - name-end: each extra filling
+            price: $3
+        description: >
+          Bacon ~ Black Forest Ham ~ Hickory-Smoked Turkey ~ Smoked Meat 
+          ~ Polish Smoked Sausage ~ Smoked Tuna ~ Lox ~ Spinach ~ Steamed
+          Asparagus ~ Tomato ~ Bell Pepper ~ Mushroom ~ Cheddar ~ Camembert 
+          ~ Feta ~ Bocconcini ~ Homemade Salsa ~ Fresh Herbs <strong>choose or 
+          combine:</strong> Basil, Dill, Marjoram, Mint, Oregeno, Rosemary,
+          Sage, Thyme
+      - name: Frittata (Open Face Omelette)
+        price: $24.50
+        description: >
+          Ask your server about the Topping of the Day
